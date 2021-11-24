@@ -1,0 +1,42 @@
+.container {
+	margin-top: 10px;
+}
+
+.row {
+	row-gap: 10px;
+}
+
+.page-item .page-link {
+	border: 1px solid $primary;
+}
+.page-item.active .page-link {
+	background-color: $primary;
+	border: 1px solid $primary;
+}
+.page-link {
+	color: $primary;
+	font-weight: 400;
+	width: 40px;
+}
+
+.news-block .btn {
+	position: relative;
+	width: 100%;
+	height: 40px;
+	border-radius: 4px;
+	font-size: 16px;
+	font-weight: 300;
+	text-transform: uppercase;
+	background-color: $primary;
+}
+
+.news-block .btn::after {
+	content: "";
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 28px;
+	height: 100%;
+	border-radius: 0px 4px 4px 0px;
+	background: $dark-grey;
+}

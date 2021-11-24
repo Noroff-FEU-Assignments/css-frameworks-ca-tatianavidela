@@ -1,0 +1,35 @@
+body {
+	font-family: "Lato", sans-serif !important;
+	font-weight: 300;
+	min-height: 100vh;
+	margin: 0px;
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+	position: relative;
+	background-color: $white-grey;
+}
+
+footer {
+	display: flex;
+	flex-shrink: 0;
+	justify-content: space-between;
+	margin-top: 2rem;
+	font-size: 1em;
+	padding: 10px;
+	color: $dark-grey;
+	background-color: $white;
+	align-items: center;
+}
+
+footer i {
+	padding: 10px;
+	font-size: 30px;
+}
+.yay {
+	text-transform: uppercase;
+}
+
+h1 {
+	font-family: "Playfair Display", serif;
+	color: $primary;
+}

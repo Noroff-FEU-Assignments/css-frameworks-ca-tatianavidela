@@ -1,0 +1,54 @@
+.navbar-brand {
+	font-family: "Playfair Display", serif;
+	font-style: italic;
+	font-size: 28px;
+	color: $primary !important;
+	margin-right: 40px !important;
+	padding-left: 20px;
+}
+.navbar-collapse {
+	padding-top: 20px;
+}
+.container-fluid {
+	padding: 0;
+}
+.navbar {
+	background-color: $light-grey !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	font-weight: 400;
+	color: $almost-black !important;
+}
+.nav-item {
+	padding: 20px 0px;
+}
+.nav-link {
+	font-size: 16px;
+	padding: 10px 40px !important;
+}
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-item {
+	background-color: $white !important;
+	border-radius: 4px;
+}
+.me-2 {
+	margin-right: 0px !important;
+}
+.d-flex {
+	margin: 10px 40px;
+}
+.form-control {
+	font-weight: 300;
+	border: transparent;
+	border-radius: 3px 0px 0px 3px;
+}
+.btn {
+	border: transparent;
+	border-radius: 0px 3px 3px 0px;
+}
+.btn-outline-success {
+	font-weight: 300;
+	color: $white;
+	background-color: $primary;
+}
